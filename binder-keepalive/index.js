@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-const BINDER_URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-r227cdea/desktop/";
+const BINDER_URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-mvlfebx3/desktop/";
 
 (async () => {
   const browser = await puppeteer.launch({
