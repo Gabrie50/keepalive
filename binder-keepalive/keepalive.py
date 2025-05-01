@@ -9,13 +9,15 @@ options.add_argument("--headless")
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-dev-shm-usage")
 
+# Inicializa o Chrome
 driver = webdriver.Chrome(options=options)
 
 print("Abrindo o Binder...")
 driver.get(URL)
 
-# Mantém ativo com reload a cada 5 minutos
+# Mantém a aba ativa com reload a cada 5 minutos
 while True:
     print("Binder ativo... recarregando.")
     time.sleep(300)
     driver.refresh()
+    
