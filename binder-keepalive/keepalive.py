@@ -1,7 +1,7 @@
 import time
 import requests
 
-URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-jt7jvpj0/desktop/"
+URL = "hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-d9m79il6/desktop/"
 
 while True:
     try:
