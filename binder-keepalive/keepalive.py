@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import time
 
-URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-r227cdea/desktop/"
+URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-jt7jvpj0/desktop/"
 
 options = Options()
 options.add_argument("--headless")
