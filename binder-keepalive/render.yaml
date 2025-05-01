@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: binder-keepalive
+    env: python
+    buildCommand: ""
+    startCommand: python keepalive.py
+    autoDeploy: true
