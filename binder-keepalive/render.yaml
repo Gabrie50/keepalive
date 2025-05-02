@@ -1,8 +1,0 @@
-services:
-  - type: worker
-    name: binder-keepalive
-    env: python
-    buildCommand: pip install -r binder-keepalive/requirements.txt
-    startCommand: python binder-keepalive/keepalive.py
-    autoDeploy: true
-    
