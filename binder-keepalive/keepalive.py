@@ -3,7 +3,7 @@ import requests
 import threading
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-d9m79il6/desktop/"
+URL = "hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-825j7vvg/desktop/"
 
 def ping_loop():
     while True:
