@@ -1,8 +1,8 @@
 import time
 import requests
 
-# Adicionei o https:// no início da URL
-URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-5nt1oalz/lab"
+# URL do seu Binder (coloque a URL correta que abre o Jupyter Desktop)
+URL = "https://hub.gesis.mybinder.org/user/gabrie50-jupyter-desktop-server-825j7vvg/desktop/"
 
 headers = {
     "User-Agent": "Mozilla/5.0"
