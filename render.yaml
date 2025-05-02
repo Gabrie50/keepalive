@@ -5,5 +5,8 @@ services:
     plan: free
     buildCommand: pip install -r binder-keepalive/requirements.txt
     startCommand: python binder-keepalive/keepalive.py
+    envVars: []
     autoDeploy: true
-    
+    ports:
+      - port: 10000
+      
