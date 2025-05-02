@@ -1,7 +1,8 @@
 services:
-  - type: web
+  - type: worker
     name: binder-keepalive
     env: python
-    buildCommand: ""
-    startCommand: python keepalive.py
+    buildCommand: pip install -r binder-keepalive/requirements.txt
+    startCommand: python binder-keepalive/keepalive.py
     autoDeploy: true
+    
